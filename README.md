@@ -53,6 +53,9 @@ Some of the states have a `:slow` at the end if supported by the device. Setting
 
 
 ## Changelog
+### 0.3.4
+
+-  Changes to fix 2 min Login issue
 
 ### 0.3.3
 
