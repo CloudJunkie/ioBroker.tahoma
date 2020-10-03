@@ -10,6 +10,10 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/StrathCole/iobroker.tahoma/blob/master/LICENSE)
 
 # experimental version !!! ioBroker.tahoma
+This version is used to fix issues with re-login. Specifically an issue with where the next login should be executed after 2 min but the adapter is trying to login every 1-5 sec.
+
+No other changes.
+
 
 An ioBroker adapter for Somfy Tahoma. This project has no affiliation with Somfy. Initially based on the script taken from https://forum.iobroker.net/post/336001.
 
