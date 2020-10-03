@@ -4,7 +4,7 @@
 		"version": "0.3.4",
 		"news": {
 			"0.3.4": {
-				"en": "Removed credentials from log on error and debug",
+				"en": "This version is used to fix issues with re-login. Specifically an issue with where the next login should be executed after 2 min but the adapter is trying to login every 1-5 sec. No other changes.",
 				"de": "Anmeldeinformationen aus Anmeldefehler und Debug entfernt",
 				"ru": "Удалены учетные данные из журнала при ошибке и отладке",
 				"pt": "Credenciais removidas do erro de logon e depuração",
