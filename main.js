@@ -163,7 +163,7 @@ function pollStates() {
 }
 
 function processStateChange(id, value) {
-	adapter.log.debug('StateChange: ' + JSON.stringify([id, value]));
+	adapter.log.info('StateChange: ' + JSON.stringify([id, value]));
 	
 	if(id === 'update') {
 		if(value) {
